@@ -53,6 +53,13 @@
         <g class="svg-pan-zoom_viewport" v-html="svgHTML"></g>
       </svg>
     </SvgPanZoom>
+    <el-link
+      class="credit"
+      type="info"
+      href="https://github.com/chuongtrh/godepgraph"
+    >
+      Repo Github: Godepgraph
+    </el-link>
   </el-container>
 </template>
 
@@ -60,7 +67,6 @@
 import Viz from "viz.js";
 import { Module, render } from "viz.js/full.render.js";
 import SvgPanZoom from "vue-svg-pan-zoom";
-
 export default {
   components: { SvgPanZoom },
   mounted: function () {
@@ -142,7 +148,7 @@ export default {
 <style lang="scss">
 .container {
   position: absolute;
-  overflow: auto;
+  overflow: hidden;
   width: 100%;
   height: 100%;
   top: 0;
@@ -161,9 +167,11 @@ export default {
       margin-top: 0.5rem;
       margin-bottom: 0.5rem;
       display: flex;
-      font-size: 14px;
-      font-weight: 500;
+      font-size: 12px;
+      font-weight: 400;
       a {
+        font-size: 12px;
+        font-weight: 400;
         margin-left: 1rem;
       }
     }
