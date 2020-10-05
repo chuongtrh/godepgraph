@@ -18,7 +18,10 @@ func main() {
 			IsRoot:  true,
 			Parent:  nil,
 		}
-		node.FindImports()
+		err := node.FindImports()
+		if err != nil {
+			return c.Status(fiber.StatusNotFound).SendString(err.Error())
+		}
 		graph := node.BuildGraph()
 		return c.SendString(graph)
 	})

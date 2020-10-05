@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "backend-go"
+		},
+		{
+			"path": "frontend-nuxt"
+		}
+	],
+	"settings": {}
+}
