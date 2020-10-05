@@ -98,7 +98,7 @@ export default {
 
       try {
         let res = await this.$axios.get(
-          `http://localhost:3200/?pkg=${this.pgkName}`
+          `${process.env.baseUrl}/search/?pkg=${this.pgkName}`
         );
         if (res.status == 200) {
           let graph = res.data;
