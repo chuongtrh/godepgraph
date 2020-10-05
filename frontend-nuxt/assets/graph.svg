@@ -1,0 +1,1879 @@
+<svg
+          width="100%"
+          height="100%"
+          viewBox="0.00 0.00 686.63 1894.84"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <g
+            id="graph0"
+            class="graph"
+            transform="scale(5 5) rotate(0) translate(10.8 1884.0421)"
+          >
+            <title>G</title>
+            <polygon
+              fill="#ffffff"
+              stroke="transparent"
+              points="-10.8,10.8 -10.8,-1884.0421 675.8296,-1884.0421 675.8296,10.8 -10.8,10.8"
+            ></polygon>
+            <!-- net/http -->
+            <g id="node1" class="node">
+              <title>net/http</title>
+              <polygon
+                fill="#98fb98"
+                stroke="#98fb98"
+                points="58.6659,-974 .1111,-974 .1111,-938 58.6659,-938 58.6659,-974"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="29.3885"
+                y="-951.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                net/http
+              </text>
+            </g>
+            <!-- fmt -->
+            <g id="node2" class="node">
+              <title>fmt</title>
+              <polygon
+                fill="#eee8aa"
+                stroke="#eee8aa"
+                points="638.5415,-1202 584.5415,-1202 584.5415,-1166 638.5415,-1166 638.5415,-1202"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="611.5415"
+                y="-1179.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                fmt
+              </text>
+            </g>
+            <!-- net/http&#45;&gt;fmt -->
+            <g id="edge1" class="edge">
+              <title>net/http-&gt;fmt</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M58.9267,-961.9465C70.1228,-964.0619 83.0068,-966.3305 94.777,-968 142.0191,-974.7008 486.0139,-979.7291 522.0534,-1011 572.5325,-1054.7999 516.4185,-1104.7209 558.0534,-1157 562.6868,-1162.818 568.9044,-1167.4922 575.46,-1171.2078"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="573.979,-1174.3802 584.4916,-1175.6977 577.0951,-1168.112 573.979,-1174.3802"
+              ></polygon>
+            </g>
+            <!-- io/ioutil -->
+            <g id="node3" class="node">
+              <title>io/ioutil</title>
+              <polygon
+                fill="#eee8aa"
+                stroke="#eee8aa"
+                points="221.1998,-1854 160.5106,-1854 160.5106,-1818 221.1998,-1818 221.1998,-1854"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="190.8552"
+                y="-1831.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                io/ioutil
+              </text>
+            </g>
+            <!-- net/http&#45;&gt;io/ioutil -->
+            <g id="edge2" class="edge">
+              <title>net/http-&gt;io/ioutil</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M29.5528,-974.1756C30.7744,-1091.7635 39.9876,-1742.1641 94.777,-1809 108.1531,-1825.317 130.5433,-1832.22 150.3454,-1834.9731"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="150.0845,-1838.4652 160.4032,-1836.0623 150.8382,-1831.5059 150.0845,-1838.4652"
+              ></polygon>
+            </g>
+            <!-- reflect -->
+            <g id="node4" class="node">
+              <title>reflect</title>
+              <polygon
+                fill="#eee8aa"
+                stroke="#eee8aa"
+                points="217.8552,-1800 163.8552,-1800 163.8552,-1764 217.8552,-1764 217.8552,-1800"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="190.8552"
+                y="-1777.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                reflect
+              </text>
+            </g>
+            <!-- net/http&#45;&gt;reflect -->
+            <g id="edge3" class="edge">
+              <title>net/http-&gt;reflect</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M29.7052,-974.3276C31.813,-1087.361 45.2826,-1686.976 94.777,-1750 108.7109,-1767.7428 132.8159,-1775.7385 153.3946,-1779.3006"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="153.0596,-1782.7884 163.4568,-1780.7521 154.059,-1775.8602 153.0596,-1782.7884"
+              ></polygon>
+            </g>
+            <!-- sync -->
+            <g id="node5" class="node">
+              <title>sync</title>
+              <polygon
+                fill="#eee8aa"
+                stroke="#eee8aa"
+                points="638.5415,-1256 584.5415,-1256 584.5415,-1220 638.5415,-1220 638.5415,-1256"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="611.5415"
+                y="-1233.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                sync
+              </text>
+            </g>
+            <!-- net/http&#45;&gt;sync -->
+            <g id="edge4" class="edge">
+              <title>net/http-&gt;sync</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M30.76,-974.3341C35.4969,-1032.2884 53.2133,-1209.8349 94.777,-1246 166.4784,-1308.3883 428.0276,-1278.8756 522.0534,-1265 539.7354,-1262.3906 558.7671,-1257.0287 574.7141,-1251.7658"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="575.8712,-1255.0692 584.2051,-1248.5272 573.6105,-1248.4443 575.8712,-1255.0692"
+              ></polygon>
+            </g>
+            <!-- golang.org/x/net/http/httpproxy -->
+            <g id="node6" class="node">
+              <title>golang.org/x/net/http/httpproxy</title>
+              <polygon
+                fill="none"
+                stroke="#000000"
+                points="287.0117,-1632 94.6987,-1632 94.6987,-1596 287.0117,-1596 287.0117,-1632"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="190.8552"
+                y="-1609.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                golang.org/x/net/http/httpproxy
+              </text>
+            </g>
+            <!-- net/http&#45;&gt;golang.org/x/net/http/httpproxy -->
+            <g id="edge5" class="edge">
+              <title>net/http-&gt;golang.org/x/net/http/httpproxy</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M30.2144,-974.1517C34.7655,-1071.028 57.9281,-1524.5963 94.777,-1574 99.6382,-1580.5174 105.759,-1585.9795 112.5466,-1590.5559"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="111.0786,-1593.7564 121.456,-1595.8918 114.6752,-1587.751 111.0786,-1593.7564"
+              ></polygon>
+            </g>
+            <!-- net/url -->
+            <g id="node7" class="node">
+              <title>net/url</title>
+              <polygon
+                fill="#eee8aa"
+                stroke="#eee8aa"
+                points="449.4934,-1808 395.4934,-1808 395.4934,-1772 449.4934,-1772 449.4934,-1808"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="422.4934"
+                y="-1785.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                net/url
+              </text>
+            </g>
+            <!-- net/http&#45;&gt;net/url -->
+            <g id="edge57" class="edge">
+              <title>net/http-&gt;net/url</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M29.7888,-974.0335C32.3064,-1080.2248 47.4048,-1621.2412 94.777,-1676 152.2311,-1742.4127 211.7308,-1676.6547 286.9334,-1722 307.7001,-1734.5218 302.356,-1750.1696 322.9334,-1763 341.8275,-1774.7808 365.852,-1781.487 385.5672,-1785.2691"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="384.9812,-1788.7196 395.4342,-1786.9916 386.1852,-1781.8239 384.9812,-1788.7196"
+              ></polygon>
+            </g>
+            <!-- os -->
+            <g id="node8" class="node">
+              <title>os</title>
+              <polygon
+                fill="#eee8aa"
+                stroke="#eee8aa"
+                points="449.4934,-1754 395.4934,-1754 395.4934,-1718 449.4934,-1718 449.4934,-1754"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="422.4934"
+                y="-1731.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                os
+              </text>
+            </g>
+            <!-- net/http&#45;&gt;os -->
+            <g id="edge14" class="edge">
+              <title>net/http-&gt;os</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M29.8687,-974.168C32.7652,-1077.6117 49.3326,-1589.489 94.777,-1641 152.6742,-1706.6262 203.1536,-1658.7053 286.9334,-1684 321.1051,-1694.3171 358.9516,-1709.1315 385.9512,-1720.3109"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="384.8044,-1723.6249 395.3808,-1724.25 387.5027,-1717.1658 384.8044,-1723.6249"
+              ></polygon>
+            </g>
+            <!-- strings -->
+            <g id="node9" class="node">
+              <title>strings</title>
+              <polygon
+                fill="#eee8aa"
+                stroke="#eee8aa"
+                points="449.4934,-1494 395.4934,-1494 395.4934,-1458 449.4934,-1458 449.4934,-1494"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="422.4934"
+                y="-1471.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                strings
+              </text>
+            </g>
+            <!-- net/http&#45;&gt;strings -->
+            <g id="edge58" class="edge">
+              <title>net/http-&gt;strings</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M30.595,-974.0279C36.3023,-1056.8157 61.6985,-1397.9327 94.777,-1431 134.8771,-1471.0864 308.0944,-1476.1058 385.2144,-1476.3053"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="385.4349,-1479.8054 395.4347,-1476.3046 385.4344,-1472.8054 385.4349,-1479.8054"
+              ></polygon>
+            </g>
+            <!-- unicode/utf8 -->
+            <g id="node10" class="node">
+              <title>unicode/utf8</title>
+              <polygon
+                fill="#eee8aa"
+                stroke="#eee8aa"
+                points="654.8034,-1386 568.2796,-1386 568.2796,-1350 654.8034,-1350 654.8034,-1386"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="611.5415"
+                y="-1363.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                unicode/utf8
+              </text>
+            </g>
+            <!-- net/http&#45;&gt;unicode/utf8 -->
+            <g id="edge15" class="edge">
+              <title>net/http-&gt;unicode/utf8</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M29.6924,-974.2524C31.6877,-1084.2199 44.4401,-1655.7102 94.777,-1713 152.478,-1778.671 216.2943,-1703.5004 286.9334,-1755 312.6811,-1773.7714 295.3188,-1801.1021 322.9334,-1817 399.6293,-1861.1543 455.7085,-1875.5681 522.0534,-1817 570.4062,-1774.315 543.8173,-1591.9073 558.0534,-1529 568.9058,-1481.0447 588.3487,-1427.1718 600.5641,-1395.49"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="603.885,-1396.6075 604.2561,-1386.0191 597.363,-1394.065 603.885,-1396.6075"
+              ></polygon>
+            </g>
+            <!-- errors -->
+            <g id="node11" class="node">
+              <title>errors</title>
+              <polygon
+                fill="#eee8aa"
+                stroke="#eee8aa"
+                points="638.5415,-1574 584.5415,-1574 584.5415,-1538 638.5415,-1538 638.5415,-1574"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="611.5415"
+                y="-1551.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                errors
+              </text>
+            </g>
+            <!-- net/http&#45;&gt;errors -->
+            <g id="edge55" class="edge">
+              <title>net/http-&gt;errors</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M30.0052,-974.247C34.3338,-1099.7855 60.9705,-1831.543 94.777,-1863 121.4906,-1887.8571 511.3306,-1858.4131 522.0534,-1850 564.5989,-1816.6188 595.8768,-1651.7557 607.0542,-1584.571"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="610.5743,-1584.7317 608.7325,-1574.2982 603.6659,-1583.603 610.5743,-1584.7317"
+              ></polygon>
+            </g>
+            <!-- net -->
+            <g id="node12" class="node">
+              <title>net</title>
+              <polygon
+                fill="#eee8aa"
+                stroke="#eee8aa"
+                points="449.4934,-1586 395.4934,-1586 395.4934,-1550 449.4934,-1550 449.4934,-1586"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="422.4934"
+                y="-1563.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                net
+              </text>
+            </g>
+            <!-- net/http&#45;&gt;net -->
+            <g id="edge46" class="edge">
+              <title>net/http-&gt;net</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M30.114,-974.0504C34.0367,-1067.3901 54.0574,-1492.5421 94.777,-1533 134.852,-1572.8174 308.083,-1572.0332 385.2104,-1569.5926"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="385.5579,-1573.0828 395.4318,-1569.2413 385.3174,-1566.0869 385.5579,-1573.0828"
+              ></polygon>
+            </g>
+            <!-- compress/gzip -->
+            <g id="node13" class="node">
+              <title>compress/gzip</title>
+              <polygon
+                fill="#eee8aa"
+                stroke="#eee8aa"
+                points="239.2207,-1394 142.4897,-1394 142.4897,-1358 239.2207,-1358 239.2207,-1394"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="190.8552"
+                y="-1371.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                compress/gzip
+              </text>
+            </g>
+            <!-- net/http&#45;&gt;compress/gzip -->
+            <g id="edge13" class="edge">
+              <title>net/http-&gt;compress/gzip</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M29.907,-974.2421C32.256,-1043.9593 44.1059,-1292.4765 94.777,-1349 104.5498,-1359.9016 118.3389,-1366.5481 132.4282,-1370.5608"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="131.6402,-1373.9712 142.1846,-1372.938 133.2974,-1367.1701 131.6402,-1373.9712"
+              ></polygon>
+            </g>
+            <!-- time -->
+            <g id="node14" class="node">
+              <title>time</title>
+              <polygon
+                fill="#eee8aa"
+                stroke="#eee8aa"
+                points="217.8552,-1340 163.8552,-1340 163.8552,-1304 217.8552,-1304 217.8552,-1340"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="190.8552"
+                y="-1317.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                time
+              </text>
+            </g>
+            <!-- net/http&#45;&gt;time -->
+            <g id="edge16" class="edge">
+              <title>net/http-&gt;time</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M30.5923,-974.4049C35.0571,-1037.2456 52.6363,-1242.0795 94.777,-1290 109.5757,-1306.8284 133.4567,-1314.832 153.7068,-1318.6267"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="153.1705,-1322.0853 163.5984,-1320.2119 154.2782,-1315.1735 153.1705,-1322.0853"
+              ></polygon>
+            </g>
+            <!-- golang.org/x/net/http/httpguts -->
+            <g id="node15" class="node">
+              <title>golang.org/x/net/http/httpguts</title>
+              <polygon
+                fill="none"
+                stroke="#000000"
+                points="282.1863,-1524 99.5241,-1524 99.5241,-1488 282.1863,-1488 282.1863,-1524"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="190.8552"
+                y="-1501.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                golang.org/x/net/http/httpguts
+              </text>
+            </g>
+            <!-- net/http&#45;&gt;golang.org/x/net/http/httpguts -->
+            <g id="edge17" class="edge">
+              <title>net/http-&gt;golang.org/x/net/http/httpguts</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M30.5331,-974.0429C36.1992,-1061.0155 62.279,-1434.4177 94.777,-1474 97.2069,-1476.9597 99.9189,-1479.6473 102.8473,-1482.0879"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="100.896,-1484.9956 111.0595,-1487.988 104.9804,-1479.3107 100.896,-1484.9956"
+              ></polygon>
+            </g>
+            <!-- net/textproto -->
+            <g id="node16" class="node">
+              <title>net/textproto</title>
+              <polygon
+                fill="#eee8aa"
+                stroke="#eee8aa"
+                points="466.0374,-1440 378.9494,-1440 378.9494,-1404 466.0374,-1404 466.0374,-1440"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="422.4934"
+                y="-1417.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                net/textproto
+              </text>
+            </g>
+            <!-- net/http&#45;&gt;net/textproto -->
+            <g id="edge69" class="edge">
+              <title>net/http-&gt;net/textproto</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M30.7002,-974.0834C36.6757,-1054.0617 62.4302,-1373.3618 94.777,-1403 133.4611,-1438.4448 286.028,-1432.7319 368.6484,-1426.7299"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="369.1424,-1430.2027 378.8512,-1425.9614 368.6165,-1423.2225 369.1424,-1430.2027"
+              ></polygon>
+            </g>
+            <!-- net/http/httptrace -->
+            <g id="node17" class="node">
+              <title>net/http/httptrace</title>
+              <polygon
+                fill="#eee8aa"
+                stroke="#eee8aa"
+                points="246.4996,-1210 135.2108,-1210 135.2108,-1174 246.4996,-1174 246.4996,-1210"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="190.8552"
+                y="-1187.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                net/http/httptrace
+              </text>
+            </g>
+            <!-- net/http&#45;&gt;net/http/httptrace -->
+            <g id="edge22" class="edge">
+              <title>net/http-&gt;net/http/httptrace</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M32.7466,-974.013C41.5854,-1019.5866 66.753,-1137.7842 94.777,-1165 103.3223,-1173.2988 114.2072,-1179.0876 125.5587,-1183.1159"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="124.5743,-1186.4751 135.1626,-1186.1021 126.6527,-1179.7907 124.5743,-1186.4751"
+              ></polygon>
+            </g>
+            <!-- golang.org/x/net/idna -->
+            <g id="node18" class="node">
+              <title>golang.org/x/net/idna</title>
+              <polygon
+                fill="none"
+                stroke="#000000"
+                points="259.0033,-1156 122.7071,-1156 122.7071,-1120 259.0033,-1120 259.0033,-1156"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="190.8552"
+                y="-1133.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                golang.org/x/net/idna
+              </text>
+            </g>
+            <!-- net/http&#45;&gt;golang.org/x/net/idna -->
+            <g id="edge23" class="edge">
+              <title>net/http-&gt;golang.org/x/net/idna</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M40.6879,-974.0789C53.0009,-993.2242 73.7645,-1023.9442 94.777,-1048 115.3924,-1071.6011 141.4852,-1095.7379 161.2748,-1113.0667"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="159.2168,-1115.9147 169.0647,-1119.8223 163.803,-1110.6264 159.2168,-1115.9147"
+              ></polygon>
+            </g>
+            <!-- math -->
+            <g id="node19" class="node">
+              <title>math</title>
+              <polygon
+                fill="#eee8aa"
+                stroke="#eee8aa"
+                points="449.4934,-1056 395.4934,-1056 395.4934,-1020 449.4934,-1020 449.4934,-1056"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="422.4934"
+                y="-1033.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                math
+              </text>
+            </g>
+            <!-- net/http&#45;&gt;math -->
+            <g id="edge67" class="edge">
+              <title>net/http-&gt;math</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M46.4188,-974.2087C58.6508,-986.0184 76.2006,-1000.5467 94.777,-1008 193.773,-1047.7197 322.677,-1045.4608 385.2126,-1041.3271"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="385.6566,-1044.8044 395.3809,-1040.5986 385.1563,-1037.8222 385.6566,-1044.8044"
+              ></polygon>
+            </g>
+            <!-- container/list -->
+            <g id="node22" class="node">
+              <title>container/list</title>
+              <polygon
+                fill="#eee8aa"
+                stroke="#eee8aa"
+                points="656.1341,-894 566.9489,-894 566.9489,-858 656.1341,-858 656.1341,-894"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="611.5415"
+                y="-871.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                container/list
+              </text>
+            </g>
+            <!-- net/http&#45;&gt;container/list -->
+            <g id="edge49" class="edge">
+              <title>net/http-&gt;container/list</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M37.6691,-937.9424C47.9019,-918.0691 67.3808,-887.1938 94.777,-874 248.3769,-800.0271 458.6779,-836.9743 556.8714,-860.9309"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="556.3183,-864.4 566.8677,-863.42 558.0097,-857.6074 556.3183,-864.4"
+              ></polygon>
+            </g>
+            <!-- log -->
+            <g id="node23" class="node">
+              <title>log</title>
+              <polygon
+                fill="#eee8aa"
+                stroke="#eee8aa"
+                points="638.5415,-734 584.5415,-734 584.5415,-698 638.5415,-698 638.5415,-734"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="611.5415"
+                y="-711.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                log
+              </text>
+            </g>
+            <!-- net/http&#45;&gt;log -->
+            <g id="edge45" class="edge">
+              <title>net/http-&gt;log</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M31.5066,-937.7651C37.8815,-886.423 58.7056,-742.5886 94.777,-715 169.5188,-657.8351 468.7338,-695.0228 574.3758,-710.32"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="573.8679,-713.7829 584.2699,-711.7711 574.8837,-706.857 573.8679,-713.7829"
+              ></polygon>
+            </g>
+            <!-- sort -->
+            <g id="node24" class="node">
+              <title>sort</title>
+              <polygon
+                fill="#eee8aa"
+                stroke="#eee8aa"
+                points="638.5415,-420 584.5415,-420 584.5415,-384 638.5415,-384 638.5415,-420"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="611.5415"
+                y="-397.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                sort
+              </text>
+            </g>
+            <!-- net/http&#45;&gt;sort -->
+            <g id="edge72" class="edge">
+              <title>net/http-&gt;sort</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M29.9505,-937.6946C33.1011,-841.0575 50.0571,-393.1327 94.777,-353 165.2032,-289.7979 467.8426,-363.265 574.3143,-391.7033"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="573.7162,-395.1669 584.2823,-394.3878 575.5365,-388.4077 573.7162,-395.1669"
+              ></polygon>
+            </g>
+            <!-- encoding/binary -->
+            <g id="node26" class="node">
+              <title>encoding/binary</title>
+              <polygon
+                fill="#eee8aa"
+                stroke="#eee8aa"
+                points="665.0177,-1001 558.0653,-1001 558.0653,-965 665.0177,-965 665.0177,-1001"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="611.5415"
+                y="-978.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                encoding/binary
+              </text>
+            </g>
+            <!-- net/http&#45;&gt;encoding/binary -->
+            <g id="edge54" class="edge">
+              <title>net/http-&gt;encoding/binary</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M45.7081,-937.8203C57.8742,-925.6939 75.6355,-910.7775 94.777,-904 184.2833,-872.308 433.4532,-867.8567 522.0534,-902 550.6262,-913.0109 575.7366,-937.8427 592.028,-957.1298"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="589.4185,-959.4679 598.4544,-964.9998 594.8405,-955.0404 589.4185,-959.4679"
+              ></polygon>
+            </g>
+            <!-- io -->
+            <g id="node27" class="node">
+              <title>io</title>
+              <polygon
+                fill="#eee8aa"
+                stroke="#eee8aa"
+                points="638.5415,-1148 584.5415,-1148 584.5415,-1112 638.5415,-1112 638.5415,-1148"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="611.5415"
+                y="-1125.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                io
+              </text>
+            </g>
+            <!-- net/http&#45;&gt;io -->
+            <g id="edge44" class="edge">
+              <title>net/http-&gt;io</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M58.6733,-955.3945C159.0821,-953.5772 485.2672,-949.9064 522.0534,-978 563.6074,-1009.7348 527.6801,-1047.4407 558.0534,-1090 563.0401,-1096.9874 569.6157,-1103.2786 576.4443,-1108.692"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="574.3716,-1111.5122 584.4966,-1114.6326 578.5274,-1105.8793 574.3716,-1111.5122"
+              ></polygon>
+            </g>
+            <!-- crypto/tls -->
+            <g id="node28" class="node">
+              <title>crypto/tls</title>
+              <polygon
+                fill="#eee8aa"
+                stroke="#eee8aa"
+                points="225.2375,-814 156.4729,-814 156.4729,-778 225.2375,-778 225.2375,-814"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="190.8552"
+                y="-791.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                crypto/tls
+              </text>
+            </g>
+            <!-- net/http&#45;&gt;crypto/tls -->
+            <g id="edge43" class="edge">
+              <title>net/http-&gt;crypto/tls</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M33.8592,-937.9727C41.6129,-910.3845 60.1461,-857.7667 94.777,-828 109.1545,-815.642 128.4673,-808.0171 146.0066,-803.3308"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="147.1794,-806.6482 156.0777,-800.8975 145.5354,-799.844 147.1794,-806.6482"
+              ></polygon>
+            </g>
+            <!-- strconv -->
+            <g id="node29" class="node">
+              <title>strconv</title>
+              <polygon
+                fill="#eee8aa"
+                stroke="#eee8aa"
+                points="219.566,-760 162.1444,-760 162.1444,-724 219.566,-724 219.566,-760"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="190.8552"
+                y="-737.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                strconv
+              </text>
+            </g>
+            <!-- net/http&#45;&gt;strconv -->
+            <g id="edge47" class="edge">
+              <title>net/http-&gt;strconv</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M30.361,-937.8895C33.3554,-900.6856 45.5213,-815.273 94.777,-769 110.191,-754.5194 132.7489,-747.7094 152.1338,-744.5473"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="152.7827,-747.9913 162.2183,-743.1725 151.8371,-741.0554 152.7827,-747.9913"
+              ></polygon>
+            </g>
+            <!-- bytes -->
+            <g id="node30" class="node">
+              <title>bytes</title>
+              <polygon
+                fill="#eee8aa"
+                stroke="#eee8aa"
+                points="638.5415,-1081 584.5415,-1081 584.5415,-1045 638.5415,-1045 638.5415,-1081"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="611.5415"
+                y="-1058.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                bytes
+              </text>
+            </g>
+            <!-- net/http&#45;&gt;bytes -->
+            <g id="edge48" class="edge">
+              <title>net/http-&gt;bytes</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M58.8029,-948.38C69.9848,-945.8332 82.8913,-943.3108 94.777,-942 189.1561,-931.5912 441.0006,-890.5408 522.0534,-940 551.9168,-958.223 537.3721,-981.7833 558.0534,-1010 565.2858,-1019.8676 574.3786,-1029.6036 583.0049,-1037.9855"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="580.7324,-1040.6534 590.4071,-1044.9721 585.5372,-1035.5628 580.7324,-1040.6534"
+              ></polygon>
+            </g>
+            <!-- math/rand -->
+            <g id="node31" class="node">
+              <title>math/rand</title>
+              <polygon
+                fill="#eee8aa"
+                stroke="#eee8aa"
+                points="227.1172,-668 154.5932,-668 154.5932,-632 227.1172,-632 227.1172,-668"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="190.8552"
+                y="-645.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                math/rand
+              </text>
+            </g>
+            <!-- net/http&#45;&gt;math/rand -->
+            <g id="edge50" class="edge">
+              <title>net/http-&gt;math/rand</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M31.4156,-937.8868C37.8951,-883.0448 59.7543,-720.2197 94.777,-682 107.4862,-668.1307 126.356,-660.2649 144.0162,-655.807"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="145.2075,-659.1285 154.2187,-653.5565 143.6996,-652.2928 145.2075,-659.1285"
+              ></polygon>
+            </g>
+            <!-- mime -->
+            <g id="node32" class="node">
+              <title>mime</title>
+              <polygon
+                fill="#eee8aa"
+                stroke="#eee8aa"
+                points="217.8552,-614 163.8552,-614 163.8552,-578 217.8552,-578 217.8552,-614"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="190.8552"
+                y="-591.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                mime
+              </text>
+            </g>
+            <!-- net/http&#45;&gt;mime -->
+            <g id="edge51" class="edge">
+              <title>net/http-&gt;mime</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M30.5179,-937.5756C34.7396,-874.6791 51.6205,-669.7577 94.777,-623 109.6876,-606.8452 133.4198,-600.0715 153.5662,-597.3482"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="154.1371,-600.8072 163.7089,-596.2651 153.3937,-593.8468 154.1371,-600.8072"
+              ></polygon>
+            </g>
+            <!-- runtime -->
+            <g id="node33" class="node">
+              <title>runtime</title>
+              <polygon
+                fill="#eee8aa"
+                stroke="#eee8aa"
+                points="220.4039,-560 161.3065,-560 161.3065,-524 220.4039,-524 220.4039,-560"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="190.8552"
+                y="-537.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                runtime
+              </text>
+            </g>
+            <!-- net/http&#45;&gt;runtime -->
+            <g id="edge52" class="edge">
+              <title>net/http-&gt;runtime</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M29.9659,-937.5621C32.5071,-868.2584 44.9025,-624.4946 94.777,-569 108.8804,-553.3074 131.306,-546.4347 150.9452,-543.5419"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="151.3819,-547.0148 160.9025,-542.3663 150.561,-540.063 151.3819,-547.0148"
+              ></polygon>
+            </g>
+            <!-- crypto/rand -->
+            <g id="node34" class="node">
+              <title>crypto/rand</title>
+              <polygon
+                fill="#eee8aa"
+                stroke="#eee8aa"
+                points="230.8882,-506 150.8222,-506 150.8222,-470 230.8882,-470 230.8882,-506"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="190.8552"
+                y="-483.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                crypto/rand
+              </text>
+            </g>
+            <!-- net/http&#45;&gt;crypto/rand -->
+            <g id="edge53" class="edge">
+              <title>net/http-&gt;crypto/rand</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M30.9234,-937.7861C37.7438,-858.6782 66.2269,-547.4193 94.777,-515 106.2513,-501.9706 123.4631,-495.0045 140.1629,-491.3513"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="141.2276,-494.7151 150.4388,-489.4802 139.9736,-487.8283 141.2276,-494.7151"
+              ></polygon>
+            </g>
+            <!-- net/http/internal -->
+            <g id="node35" class="node">
+              <title>net/http/internal</title>
+              <polygon
+                fill="#eee8aa"
+                stroke="#eee8aa"
+                points="243.7853,-452 137.9251,-452 137.9251,-416 243.7853,-416 243.7853,-452"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="190.8552"
+                y="-429.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                net/http/internal
+              </text>
+            </g>
+            <!-- net/http&#45;&gt;net/http/internal -->
+            <g id="edge56" class="edge">
+              <title>net/http-&gt;net/http/internal</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M30.6084,-937.8866C36.4734,-853.0877 62.8073,-497.8882 94.777,-461 103.4579,-450.9836 115.5302,-444.5425 128.1918,-440.4343"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="129.2436,-443.7748 137.9427,-437.727 127.3709,-437.0299 129.2436,-443.7748"
+              ></polygon>
+            </g>
+            <!-- sync/atomic -->
+            <g id="node36" class="node">
+              <title>sync/atomic</title>
+              <polygon
+                fill="#eee8aa"
+                stroke="#eee8aa"
+                points="232.5067,-398 149.2037,-398 149.2037,-362 232.5067,-362 232.5067,-398"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="190.8552"
+                y="-375.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                sync/atomic
+              </text>
+            </g>
+            <!-- net/http&#45;&gt;sync/atomic -->
+            <g id="edge59" class="edge">
+              <title>net/http-&gt;sync/atomic</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M30.369,-937.7558C35.394,-847.1602 59.4046,-448.3458 94.777,-407 105.7836,-394.1347 122.3866,-387.157 138.7098,-383.4468"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="139.6122,-386.8381 148.7846,-381.5355 138.3075,-379.9608 139.6122,-386.8381"
+              ></polygon>
+            </g>
+            <!-- golang.org/x/net/http2/hpack -->
+            <g id="node37" class="node">
+              <title>golang.org/x/net/http2/hpack</title>
+              <polygon
+                fill="none"
+                stroke="#000000"
+                points="511.6373,-1256 333.3495,-1256 333.3495,-1220 511.6373,-1220 511.6373,-1256"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="422.4934"
+                y="-1233.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                golang.org/x/net/http2/hpack
+              </text>
+            </g>
+            <!-- net/http&#45;&gt;golang.org/x/net/http2/hpack -->
+            <g id="edge60" class="edge">
+              <title>net/http-&gt;golang.org/x/net/http2/hpack</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M31.1577,-974.1982C36.8324,-1028.4426 56.4832,-1187.2327 94.777,-1219 128.4437,-1246.9288 239.5734,-1248.1947 323.1594,-1244.7318"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="323.3736,-1248.2259 333.2092,-1244.2876 323.0643,-1241.2327 323.3736,-1248.2259"
+              ></polygon>
+            </g>
+            <!-- context -->
+            <g id="node38" class="node">
+              <title>context</title>
+              <polygon
+                fill="#eee8aa"
+                stroke="#eee8aa"
+                points="219.566,-306 162.1444,-306 162.1444,-270 219.566,-270 219.566,-306"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="190.8552"
+                y="-283.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                context
+              </text>
+            </g>
+            <!-- net/http&#45;&gt;context -->
+            <g id="edge66" class="edge">
+              <title>net/http-&gt;context</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M30.0905,-937.9228C34.0685,-839.376 55.0236,-369.5768 94.777,-320 108.6078,-302.7515 132.0345,-294.7271 152.2921,-291.0267"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="152.8755,-294.4782 162.2268,-289.4978 151.8107,-287.5597 152.8755,-294.4782"
+              ></polygon>
+            </g>
+            <!-- mime/multipart -->
+            <g id="node39" class="node">
+              <title>mime/multipart</title>
+              <polygon
+                fill="#eee8aa"
+                stroke="#eee8aa"
+                points="242.4605,-252 139.2499,-252 139.2499,-216 242.4605,-216 242.4605,-252"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="190.8552"
+                y="-229.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                mime/multipart
+              </text>
+            </g>
+            <!-- net/http&#45;&gt;mime/multipart -->
+            <g id="edge68" class="edge">
+              <title>net/http-&gt;mime/multipart</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M29.8836,-937.9454C32.8906,-833.9932 50.0854,-314.5661 94.777,-261 103.6196,-250.4015 116.2628,-243.7846 129.4849,-239.6977"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="130.3895,-243.0788 139.1689,-237.1481 128.6073,-236.3095 130.3895,-243.0788"
+              ></polygon>
+            </g>
+            <!-- path -->
+            <g id="node40" class="node">
+              <title>path</title>
+              <polygon
+                fill="#eee8aa"
+                stroke="#eee8aa"
+                points="217.8552,-198 163.8552,-198 163.8552,-162 217.8552,-162 217.8552,-198"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="190.8552"
+                y="-175.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                path
+              </text>
+            </g>
+            <!-- net/http&#45;&gt;path -->
+            <g id="edge70" class="edge">
+              <title>net/http-&gt;path</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M29.7537,-937.9804C32.1108,-829.41 46.6284,-265.1057 94.777,-207 108.9629,-189.8805 133.0673,-183.1395 153.5827,-180.6739"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="153.967,-184.1534 163.6084,-179.7608 153.3321,-177.1823 153.967,-184.1534"
+              ></polygon>
+            </g>
+            <!-- path/filepath -->
+            <g id="node41" class="node">
+              <title>path/filepath</title>
+              <polygon
+                fill="#eee8aa"
+                stroke="#eee8aa"
+                points="234.1129,-144 147.5975,-144 147.5975,-108 234.1129,-108 234.1129,-144"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="190.8552"
+                y="-121.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                path/filepath
+              </text>
+            </g>
+            <!-- net/http&#45;&gt;path/filepath -->
+            <g id="edge71" class="edge">
+              <title>net/http-&gt;path/filepath</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M29.6448,-937.8015C31.403,-824.2358 43.1975,-215.6168 94.777,-153 105.3594,-140.1532 121.5284,-133.1459 137.6013,-129.4046"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="138.3959,-132.8158 147.5457,-127.4742 137.0619,-125.9441 138.3959,-132.8158"
+              ></polygon>
+            </g>
+            <!-- bufio -->
+            <g id="node42" class="node">
+              <title>bufio</title>
+              <polygon
+                fill="#eee8aa"
+                stroke="#eee8aa"
+                points="217.8552,-90 163.8552,-90 163.8552,-54 217.8552,-54 217.8552,-90"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="190.8552"
+                y="-67.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                bufio
+              </text>
+            </g>
+            <!-- net/http&#45;&gt;bufio -->
+            <g id="edge73" class="edge">
+              <title>net/http-&gt;bufio</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M29.5468,-937.7393C30.7302,-819.6013 39.7441,-166.1572 94.777,-99 108.8691,-81.8032 132.9738,-75.0624 153.5127,-72.6162"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="153.9053,-76.0951 163.552,-71.7144 153.2789,-69.1232 153.9053,-76.0951"
+              ></polygon>
+            </g>
+            <!-- encoding/base64 -->
+            <g id="node43" class="node">
+              <title>encoding/base64</title>
+              <polygon
+                fill="#eee8aa"
+                stroke="#eee8aa"
+                points="245.9394,-36 135.771,-36 135.771,0 245.9394,0 245.9394,-36"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="190.8552"
+                y="-13.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                encoding/base64
+              </text>
+            </g>
+            <!-- net/http&#45;&gt;encoding/base64 -->
+            <g id="edge74" class="edge">
+              <title>net/http-&gt;encoding/base64</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M29.4592,-937.7875C30.0928,-815.5088 36.2687,-116.7268 94.777,-45 102.7705,-35.2005 114.016,-28.7941 126.0093,-24.6426"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="127.1375,-27.959 135.7402,-21.7748 125.1586,-21.2445 127.1375,-27.959"
+              ></polygon>
+            </g>
+            <!-- golang.org/x/net/http/httpproxy&#45;&gt;fmt -->
+            <g id="edge11" class="edge">
+              <title>golang.org/x/net/http/httpproxy-&gt;fmt</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M286.9492,-1621.777C372.6888,-1626.421 489.5629,-1626.336 522.0534,-1595 583.7439,-1535.5016 509.7724,-1281.8147 558.0534,-1211 562.3237,-1204.7367 568.4972,-1199.8513 575.1444,-1196.0669"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="576.9179,-1199.096 584.3679,-1191.5629 573.8462,-1192.8059 576.9179,-1199.096"
+              ></polygon>
+            </g>
+            <!-- golang.org/x/net/http/httpproxy&#45;&gt;net/url -->
+            <g id="edge6" class="edge">
+              <title>golang.org/x/net/http/httpproxy-&gt;net/url</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M224.0636,-1632.2214C244.3262,-1644.6693 269.5811,-1662.7325 286.9334,-1684 311.326,-1713.8963 293.5222,-1738.0245 322.9334,-1763 340.217,-1777.6769 364.7569,-1784.4405 385.1481,-1787.5282"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="384.7096,-1791.0005 395.0731,-1788.7988 385.5985,-1784.0572 384.7096,-1791.0005"
+              ></polygon>
+            </g>
+            <!-- golang.org/x/net/http/httpproxy&#45;&gt;os -->
+            <g id="edge7" class="edge">
+              <title>golang.org/x/net/http/httpproxy-&gt;os</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M263.476,-1632.0061C271.8502,-1635.8305 279.8965,-1640.4432 286.9334,-1646 310.7443,-1664.8025 299.0239,-1685.323 322.9334,-1704 340.8438,-1717.9908 365.0436,-1725.9504 385.0996,-1730.4318"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="384.6584,-1733.9136 395.1547,-1732.4718 386.0503,-1727.0533 384.6584,-1733.9136"
+              ></polygon>
+            </g>
+            <!-- golang.org/x/net/http/httpproxy&#45;&gt;strings -->
+            <g id="edge8" class="edge">
+              <title>golang.org/x/net/http/httpproxy-&gt;strings</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M221.1378,-1595.9589C263.7913,-1570.5478 341.415,-1524.303 386.8133,-1497.2567"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="388.6437,-1500.2403 395.4433,-1492.1153 385.061,-1494.2266 388.6437,-1500.2403"
+              ></polygon>
+            </g>
+            <!-- golang.org/x/net/http/httpproxy&#45;&gt;unicode/utf8 -->
+            <g id="edge9" class="edge">
+              <title>golang.org/x/net/http/httpproxy-&gt;unicode/utf8</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M287.0665,-1630.7937C371.2534,-1643.2379 485.6267,-1653.9864 522.0534,-1628 524.5261,-1626.236 579.6728,-1462.8103 602.1418,-1395.9912"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="605.5857,-1396.7302 605.4542,-1386.1362 598.9505,-1394.4999 605.5857,-1396.7302"
+              ></polygon>
+            </g>
+            <!-- golang.org/x/net/http/httpproxy&#45;&gt;errors -->
+            <g id="edge10" class="edge">
+              <title>golang.org/x/net/http/httpproxy-&gt;errors</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M250.705,-1632.0206C262.8524,-1636.2099 275.4264,-1640.9397 286.9334,-1646 303.6882,-1653.368 305.2152,-1661.4088 322.9334,-1666 408.6017,-1688.1989 442.1337,-1704.0091 522.0534,-1666 557.8509,-1648.975 584.019,-1609.8504 598.5093,-1583.1611"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="601.6126,-1584.7795 603.1444,-1574.296 595.4093,-1581.5361 601.6126,-1584.7795"
+              ></polygon>
+            </g>
+            <!-- golang.org/x/net/http/httpproxy&#45;&gt;net -->
+            <g id="edge12" class="edge">
+              <title>golang.org/x/net/http/httpproxy-&gt;net</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M281.7399,-1595.9516C317.8169,-1588.7872 357.2825,-1580.9499 385.219,-1575.4022"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="386.2037,-1578.775 395.3304,-1573.3942 384.8401,-1571.9091 386.2037,-1578.775"
+              ></polygon>
+            </g>
+            <!-- golang.org/x/net/http/httpguts&#45;&gt;strings -->
+            <g id="edge21" class="edge">
+              <title>golang.org/x/net/http/httpguts-&gt;strings</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M282.4048,-1494.1432C318.2874,-1489.496 357.4242,-1484.4273 385.1873,-1480.8316"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="385.7728,-1484.2851 395.2404,-1479.5296 384.8737,-1477.3431 385.7728,-1484.2851"
+              ></polygon>
+            </g>
+            <!-- golang.org/x/net/http/httpguts&#45;&gt;unicode/utf8 -->
+            <g id="edge18" class="edge">
+              <title>golang.org/x/net/http/httpguts-&gt;unicode/utf8</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M263.8618,-1524.0073C334.4172,-1537.2941 442.076,-1546.4058 522.0534,-1503 563.9784,-1480.2463 589.6352,-1428.3677 602.1743,-1395.9555"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="605.6043,-1396.7709 605.7885,-1386.1777 599.0385,-1394.3439 605.6043,-1396.7709"
+              ></polygon>
+            </g>
+            <!-- golang.org/x/net/http/httpguts&#45;&gt;net -->
+            <g id="edge19" class="edge">
+              <title>golang.org/x/net/http/httpguts-&gt;net</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M258.1657,-1524.0163C299.5665,-1535.0975 351.0606,-1548.8804 385.257,-1558.0334"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="384.7191,-1561.5125 395.2841,-1560.7172 386.5291,-1554.7506 384.7191,-1561.5125"
+              ></polygon>
+            </g>
+            <!-- golang.org/x/net/http/httpguts&#45;&gt;net/textproto -->
+            <g id="edge20" class="edge">
+              <title>golang.org/x/net/http/httpguts-&gt;net/textproto</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M228.7172,-1487.9475C254.8184,-1475.9293 290.5151,-1460.3262 322.9334,-1449 337.4945,-1443.9127 353.5265,-1439.1925 368.3918,-1435.1681"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="369.6954,-1438.4435 378.4642,-1432.4973 367.9012,-1431.6773 369.6954,-1438.4435"
+              ></polygon>
+            </g>
+            <!-- golang.org/x/net/idna&#45;&gt;fmt -->
+            <g id="edge24" class="edge">
+              <title>golang.org/x/net/idna-&gt;fmt</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M258.9507,-1137.2442C326.2897,-1137.5876 432.0217,-1141.0661 522.0534,-1157 539.7857,-1160.1383 558.9597,-1165.6291 574.9937,-1170.8432"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="573.9366,-1174.1802 584.5304,-1174.0305 576.1555,-1167.5412 573.9366,-1174.1802"
+              ></polygon>
+            </g>
+            <!-- golang.org/x/net/idna&#45;&gt;strings -->
+            <g id="edge26" class="edge">
+              <title>golang.org/x/net/idna-&gt;strings</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M259.2166,-1146.4171C269.7665,-1150.531 279.5799,-1156.47 286.9334,-1165 370.0089,-1261.3665 239.4188,-1353.0138 322.9334,-1449 338.2889,-1466.6486 363.8954,-1473.3164 385.2936,-1475.6144"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="385.1501,-1479.1139 395.3968,-1476.4204 385.7069,-1472.1361 385.1501,-1479.1139"
+              ></polygon>
+            </g>
+            <!-- golang.org/x/net/idna&#45;&gt;unicode/utf8 -->
+            <g id="edge27" class="edge">
+              <title>golang.org/x/net/idna-&gt;unicode/utf8</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M259.21,-1148.4062C269.3806,-1152.3231 279.0704,-1157.6808 286.9334,-1165 321.5089,-1197.1845 289.4859,-1231.6447 322.9334,-1265 340.1382,-1282.1573 479.762,-1327.2801 558.3221,-1351.7175"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="557.4647,-1355.116 568.0527,-1354.7357 559.5385,-1348.4302 557.4647,-1355.116"
+              ></polygon>
+            </g>
+            <!-- golang.org/x/net/idna&#45;&gt;math -->
+            <g id="edge25" class="edge">
+              <title>golang.org/x/net/idna-&gt;math</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M218.7331,-1119.997C244.8153,-1103.7915 285.2948,-1080.2463 322.9334,-1065 343.0538,-1056.8498 366.4415,-1050.3644 385.4915,-1045.7946"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="386.3488,-1049.1887 395.2982,-1043.5177 384.7657,-1042.3701 386.3488,-1049.1887"
+              ></polygon>
+            </g>
+            <!-- golang.org/x/text/secure/bidirule -->
+            <g id="node20" class="node">
+              <title>golang.org/x/text/secure/bidirule</title>
+              <polygon
+                fill="none"
+                stroke="#000000"
+                points="522.1134,-1386 322.8734,-1386 322.8734,-1350 522.1134,-1350 522.1134,-1386"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="422.4934"
+                y="-1363.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                golang.org/x/text/secure/bidirule
+              </text>
+            </g>
+            <!-- golang.org/x/net/idna&#45;&gt;golang.org/x/text/secure/bidirule -->
+            <g id="edge28" class="edge">
+              <title>
+                golang.org/x/net/idna-&gt;golang.org/x/text/secure/bidirule
+              </title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M259.2436,-1147.6752C269.5327,-1151.671 279.2521,-1157.2445 286.9334,-1165 330.0268,-1208.5096 287.7933,-1247.8473 322.9334,-1298 336.4357,-1317.2709 357.0311,-1333.0221 375.9931,-1344.6692"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="374.4535,-1347.8245 384.8447,-1349.8917 378.0106,-1341.7956 374.4535,-1347.8245"
+              ></polygon>
+            </g>
+            <!-- golang.org/x/text/unicode/bidi -->
+            <g id="node21" class="node">
+              <title>golang.org/x/text/unicode/bidi</title>
+              <polygon
+                fill="none"
+                stroke="#000000"
+                points="515.4184,-1110 329.5684,-1110 329.5684,-1074 515.4184,-1074 515.4184,-1110"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="422.4934"
+                y="-1087.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                golang.org/x/text/unicode/bidi
+              </text>
+            </g>
+            <!-- golang.org/x/net/idna&#45;&gt;golang.org/x/text/unicode/bidi -->
+            <g id="edge31" class="edge">
+              <title>
+                golang.org/x/net/idna-&gt;golang.org/x/text/unicode/bidi
+              </title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M259.1014,-1124.4473C278.6866,-1120.558 300.4685,-1116.2324 321.5786,-1112.0402"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="322.4197,-1115.4416 331.5464,-1110.0608 321.0562,-1108.5757 322.4197,-1115.4416"
+              ></polygon>
+            </g>
+            <!-- golang.org/x/text/unicode/norm -->
+            <g id="node25" class="node">
+              <title>golang.org/x/text/unicode/norm</title>
+              <polygon
+                fill="none"
+                stroke="#000000"
+                points="519.1886,-1202 325.7982,-1202 325.7982,-1166 519.1886,-1166 519.1886,-1202"
+              ></polygon>
+              <text
+                text-anchor="middle"
+                x="422.4934"
+                y="-1179.8"
+                font-family="Times,serif"
+                font-size="14.00"
+                fill="#000000"
+              >
+                golang.org/x/text/unicode/norm
+              </text>
+            </g>
+            <!-- golang.org/x/net/idna&#45;&gt;golang.org/x/text/unicode/norm -->
+            <g id="edge37" class="edge">
+              <title>
+                golang.org/x/net/idna-&gt;golang.org/x/text/unicode/norm
+              </title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M259.1014,-1151.5527C278.6866,-1155.442 300.4685,-1159.7676 321.5786,-1163.9598"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="321.0562,-1167.4243 331.5464,-1165.9392 322.4197,-1160.5584 321.0562,-1167.4243"
+              ></polygon>
+            </g>
+            <!-- golang.org/x/text/secure/bidirule&#45;&gt;unicode/utf8 -->
+            <g id="edge30" class="edge">
+              <title>golang.org/x/text/secure/bidirule-&gt;unicode/utf8</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M522.2766,-1368C534.6449,-1368 546.8927,-1368 558.1695,-1368"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="558.2284,-1371.5001 568.2284,-1368 558.2284,-1364.5001 558.2284,-1371.5001"
+              ></polygon>
+            </g>
+            <!-- golang.org/x/text/secure/bidirule&#45;&gt;errors -->
+            <g id="edge29" class="edge">
+              <title>golang.org/x/text/secure/bidirule-&gt;errors</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M508.3805,-1386.2315C513.2164,-1388.782 517.8227,-1391.6883 522.0534,-1395 566.0578,-1429.4461 591.6843,-1491.8858 603.5185,-1528.0505"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="600.2888,-1529.4481 606.6243,-1537.94 606.9672,-1527.3507 600.2888,-1529.4481"
+              ></polygon>
+            </g>
+            <!-- golang.org/x/text/unicode/bidi&#45;&gt;fmt -->
+            <g id="edge33" class="edge">
+              <title>golang.org/x/text/unicode/bidi-&gt;fmt</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M491.9104,-1110.0233C502.3371,-1113.9384 512.7136,-1118.5719 522.0534,-1124 540.8194,-1134.9064 540.1973,-1144.6602 558.0534,-1157 563.3885,-1160.6869 569.2973,-1164.1794 575.1839,-1167.3534"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="573.8374,-1170.5967 584.3306,-1172.0613 577.041,-1164.3728 573.8374,-1170.5967"
+              ></polygon>
+            </g>
+            <!-- golang.org/x/text/unicode/bidi&#45;&gt;unicode/utf8 -->
+            <g id="edge36" class="edge">
+              <title>golang.org/x/text/unicode/bidi-&gt;unicode/utf8</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M462.631,-1110.1249C482.9558,-1121.1061 506.545,-1136.8966 522.0534,-1157 552.958,-1197.0613 538.3334,-1218.4047 558.0534,-1265 569.2902,-1291.551 584.6757,-1320.5991 596.0617,-1341.0584"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="593.032,-1342.8114 600.9825,-1349.8144 599.1344,-1339.3819 593.032,-1342.8114"
+              ></polygon>
+            </g>
+            <!-- golang.org/x/text/unicode/bidi&#45;&gt;container/list -->
+            <g id="edge32" class="edge">
+              <title>golang.org/x/text/unicode/bidi-&gt;container/list</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M510.5374,-1073.8203C514.6654,-1071.2495 518.5429,-1068.3253 522.0534,-1065 559.0926,-1029.9149 535.6709,-1001.8464 558.0534,-956 567.2442,-937.1743 580.2639,-917.5977 591.1568,-902.5222"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="594.1692,-904.3339 597.2795,-894.2058 588.5322,-900.1837 594.1692,-904.3339"
+              ></polygon>
+            </g>
+            <!-- golang.org/x/text/unicode/bidi&#45;&gt;log -->
+            <g id="edge34" class="edge">
+              <title>golang.org/x/text/unicode/bidi-&gt;log</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M512.052,-1073.8311C515.6822,-1071.2485 519.0491,-1068.3197 522.0534,-1065 587.3582,-992.8385 531.7414,-942.6999 558.0534,-849 568.6137,-811.3937 586.3299,-769.9081 598.4584,-743.4351"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="601.7727,-744.6077 602.8066,-734.0634 595.4228,-741.6615 601.7727,-744.6077"
+              ></polygon>
+            </g>
+            <!-- golang.org/x/text/unicode/bidi&#45;&gt;sort -->
+            <g id="edge35" class="edge">
+              <title>golang.org/x/text/unicode/bidi-&gt;sort</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M512.7642,-1073.7623C516.1554,-1071.1922 519.2821,-1068.2854 522.0534,-1065 576.1733,-1000.8395 546.3525,-772.1181 558.0534,-689 571.5096,-593.4126 594.5483,-481.2044 605.464,-430.0108"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="608.9273,-430.5522 607.6014,-420.0407 602.0829,-429.0848 608.9273,-430.5522"
+              ></polygon>
+            </g>
+            <!-- golang.org/x/text/unicode/norm&#45;&gt;fmt -->
+            <g id="edge41" class="edge">
+              <title>golang.org/x/text/unicode/norm-&gt;fmt</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M519.2327,-1184C538.7187,-1184 558.0792,-1184 573.9992,-1184"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="574.4304,-1187.5001 584.4304,-1184 574.4303,-1180.5001 574.4304,-1187.5001"
+              ></polygon>
+            </g>
+            <!-- golang.org/x/text/unicode/norm&#45;&gt;sync -->
+            <g id="edge38" class="edge">
+              <title>golang.org/x/text/unicode/norm-&gt;sync</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M490.044,-1202.0431C500.7664,-1204.9867 511.7233,-1208.0415 522.0534,-1211 539.3653,-1215.958 558.4834,-1221.6909 574.5889,-1226.5954"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="573.5982,-1229.9523 584.1845,-1229.5277 575.6439,-1223.2579 573.5982,-1229.9523"
+              ></polygon>
+            </g>
+            <!-- golang.org/x/text/unicode/norm&#45;&gt;unicode/utf8 -->
+            <g id="edge39" class="edge">
+              <title>golang.org/x/text/unicode/norm-&gt;unicode/utf8</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M507.8536,-1202.0322C512.8766,-1204.6301 517.6634,-1207.6014 522.0534,-1211 533.5566,-1219.9053 575.3643,-1298.3167 597.527,-1340.8451"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="594.4805,-1342.5729 602.1968,-1349.833 600.6921,-1339.3456 594.4805,-1342.5729"
+              ></polygon>
+            </g>
+            <!-- golang.org/x/text/unicode/norm&#45;&gt;encoding/binary -->
+            <g id="edge40" class="edge">
+              <title>golang.org/x/text/unicode/norm-&gt;encoding/binary</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M460.9521,-1165.8502C481.2875,-1154.6809 505.4144,-1138.7215 522.0534,-1119 547.9823,-1088.2676 535.3623,-1069.195 558.0534,-1036 564.9004,-1025.9834 573.8133,-1016.2634 582.394,-1007.9416"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="584.8825,-1010.4063 589.7889,-1001.016 580.0975,-1005.2971 584.8825,-1010.4063"
+              ></polygon>
+            </g>
+            <!-- golang.org/x/text/unicode/norm&#45;&gt;io -->
+            <g id="edge42" class="edge">
+              <title>golang.org/x/text/unicode/norm-&gt;io</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M485.7065,-1165.9437C515.1409,-1157.536 549.1419,-1147.8239 574.3746,-1140.6164"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="575.6158,-1143.9019 584.2699,-1137.7899 573.6932,-1137.1711 575.6158,-1143.9019"
+              ></polygon>
+            </g>
+            <!-- golang.org/x/net/http2/hpack&#45;&gt;fmt -->
+            <g id="edge61" class="edge">
+              <title>golang.org/x/net/http2/hpack-&gt;fmt</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M490.044,-1219.9569C500.7664,-1217.0133 511.7233,-1213.9585 522.0534,-1211 539.3653,-1206.042 558.4834,-1200.3091 574.5889,-1195.4046"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="575.6439,-1198.7421 584.1845,-1192.4723 573.5982,-1192.0477 575.6439,-1198.7421"
+              ></polygon>
+            </g>
+            <!-- golang.org/x/net/http2/hpack&#45;&gt;sync -->
+            <g id="edge63" class="edge">
+              <title>golang.org/x/net/http2/hpack-&gt;sync</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M511.7583,-1238C533.8155,-1238 556.2558,-1238 574.255,-1238"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="574.303,-1241.5001 584.303,-1238 574.303,-1234.5001 574.303,-1241.5001"
+              ></polygon>
+            </g>
+            <!-- golang.org/x/net/http2/hpack&#45;&gt;errors -->
+            <g id="edge65" class="edge">
+              <title>golang.org/x/net/http2/hpack-&gt;errors</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M444.364,-1256.2012C466.3538,-1275.4263 500.0626,-1307.5383 522.0534,-1341 562.5673,-1402.6469 590.7883,-1485.6332 603.6593,-1528.2262"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="600.3302,-1529.3107 606.5283,-1537.9034 607.0415,-1527.321 600.3302,-1529.3107"
+              ></polygon>
+            </g>
+            <!-- golang.org/x/net/http2/hpack&#45;&gt;io -->
+            <g id="edge62" class="edge">
+              <title>golang.org/x/net/http2/hpack-&gt;io</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M507.0914,-1219.8492C512.3576,-1217.2802 517.4019,-1214.3476 522.0534,-1211 545.4652,-1194.1511 536.4659,-1176.1306 558.0534,-1157 563.1794,-1152.4574 569.207,-1148.4654 575.3332,-1145.0413"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="576.9966,-1148.1216 584.286,-1140.4329 573.7929,-1141.8977 576.9966,-1148.1216"
+              ></polygon>
+            </g>
+            <!-- golang.org/x/net/http2/hpack&#45;&gt;bytes -->
+            <g id="edge64" class="edge">
+              <title>golang.org/x/net/http2/hpack-&gt;bytes</title>
+              <path
+                fill="none"
+                stroke="#000000"
+                d="M510.5264,-1219.8087C514.6572,-1217.2409 518.5383,-1214.3205 522.0534,-1211 558.8342,-1176.2556 528.4406,-1144.0254 558.0534,-1103 562.9207,-1096.2569 569.2588,-1090.1526 575.8616,-1084.8584"
+              ></path>
+              <polygon
+                fill="#000000"
+                stroke="#000000"
+                points="578.3419,-1087.3756 584.276,-1078.5986 574.1636,-1081.7593 578.3419,-1087.3756"
+              ></polygon>
+            </g>
+          </g>
+        </svg>
