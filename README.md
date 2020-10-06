@@ -1,6 +1,6 @@
 ## Godepgraph
 
-Godepgraph - Vizualize Go package from [https://pkg.go.dev](https://pkg.go.dev)
+Godepgraph - Visualize Go package from [https://pkg.go.dev](https://pkg.go.dev)
 
 ## Components
 
