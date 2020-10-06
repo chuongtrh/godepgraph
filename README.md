@@ -7,6 +7,7 @@ Godepgraph - Vizualize Go package from [https://pkg.go.dev](https://pkg.go.dev)
 Backend: Golang
 - [Fiber](https://fiber.wiki/)
 - [godepviz](https://github.com/chuongtrh/godepviz)
+- [bigcache](https://github.com/allegro/bigcache)
 - Heroku deploy
 
 Frontend: Nuxt.js
