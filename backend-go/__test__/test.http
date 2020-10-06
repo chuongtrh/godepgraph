@@ -1,3 +1,22 @@
 ###
 GET https://polar-oasis-34616.herokuapp.com/
 Content-Type: application/json;
+
+###
+GET https://polar-oasis-34616.herokuapp.com/search?pkg=net/http
+Content-Type: application/json;
+
+###
+GET https://polar-oasis-34616.herokuapp.com/cache
+Content-Type: application/json;
+
+
+### Local
+
+###
+GET http://localhost:3200/cache
+Content-Type: application/json;
+
+###
+GET http://localhost:3200/search?pkg=net/http
+Content-Type: application/json;

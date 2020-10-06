@@ -1,11 +1,11 @@
+github.com/allegro/bigcache v1.2.1 h1:hg1sY1raCwic3Vnsvje6TT7/pnZba83LeFck5NrFKSc=
+github.com/allegro/bigcache v1.2.1/go.mod h1:Cb/ax3seSYIx7SuZdm2G2xzfwmv3TPSk2ucNfQESPXM=
 github.com/anaskhan96/soup v1.2.4 h1:or+sKs9QbzJGZVTYFmTs2VBateEywoq00a6K14z331E=
 github.com/anaskhan96/soup v1.2.4/go.mod h1:6YnEp9A2yywlYdM4EgDz9NEHclocMepEtku7wg6Cq3s=
 github.com/andybalholm/brotli v1.0.0 h1:7UCwP93aiSfvWpapti8g88vVVGp2qqtGyePsSuDafo4=
 github.com/andybalholm/brotli v1.0.0/go.mod h1:loMXtMfwqflxFJPmdbJO0a3KNoPuLBgiu3qAvBg8x/Y=
 github.com/andybalholm/brotli v1.0.1 h1:KqhlKozYbRtJvsPrrEeXcO+N2l6NYT5A2QAFmSULpEc=
 github.com/andybalholm/brotli v1.0.1/go.mod h1:loMXtMfwqflxFJPmdbJO0a3KNoPuLBgiu3qAvBg8x/Y=
-github.com/chuongtrh/godepviz v0.1.0 h1:by4Di/PApBGQYEwZQGxcwFBvIywsR6W75GaRlHUI6i4=
-github.com/chuongtrh/godepviz v0.1.0/go.mod h1:E99PxhJxJsTwjc2GA3LjkdZZMdwKo6y8cGNNRRvU8s8=
 github.com/chuongtrh/godepviz v0.1.1 h1:h7UjX/I6s7b/eHLfT6RpS1ry0U4V4IaWbsJIZBTcOKQ=
 github.com/chuongtrh/godepviz v0.1.1/go.mod h1:E99PxhJxJsTwjc2GA3LjkdZZMdwKo6y8cGNNRRvU8s8=
 github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=

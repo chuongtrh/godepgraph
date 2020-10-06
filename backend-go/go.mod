@@ -3,6 +3,7 @@ module github.com/chuongtrh/godepgraph/backend-go
 go 1.15
 
 require (
+	github.com/allegro/bigcache v1.2.1
 	github.com/andybalholm/brotli v1.0.1 // indirect
 	github.com/chuongtrh/godepviz v0.1.1
 	github.com/gofiber/fiber/v2 v2.0.5
