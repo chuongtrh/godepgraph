@@ -1,6 +1,8 @@
 #!/bin/bash
+echo "Run build"
+npm run build
 
-echo "Build dist"
+echo "Run generate"
 npm run generate
 
 echo "Deploy to vercel"
