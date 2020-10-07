@@ -5,7 +5,7 @@ go 1.15
 require (
 	github.com/allegro/bigcache v1.2.1
 	github.com/andybalholm/brotli v1.0.1 // indirect
-	github.com/chuongtrh/godepviz v0.1.1
+	github.com/chuongtrh/godepviz v0.1.2
 	github.com/gofiber/fiber/v2 v2.0.5
 	github.com/klauspost/compress v1.11.1 // indirect
 	golang.org/x/net v0.0.0-20201002202402-0a1ea396d57c // indirect
