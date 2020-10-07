@@ -11,7 +11,7 @@
             placeholder="Please input package name"
             prefix-icon="el-icon-search"
             v-model="pgkName"
-            @keyup.enter="searchPgkName"
+            @change="searchPgkName"
           >
             <el-button
               @click="searchPgkName"
@@ -28,6 +28,9 @@
             >
             <el-link type="primary" href="/?pkg=github.com/gorilla/mux"
               >github.com/gorilla/mux</el-link
+            >
+            <el-link type="primary" href="/?pkg=go.uber.org/zap"
+              >go.uber.org/zap</el-link
             >
           </div>
         </el-col>
@@ -53,13 +56,7 @@
         <g class="svg-pan-zoom_viewport" v-html="svgHTML"></g>
       </svg>
     </SvgPanZoom>
-    <el-link
-      class="credit"
-      type="info"
-      href="https://github.com/chuongtrh/godepgraph"
-    >
-      Repo Github: Godepgraph
-    </el-link>
+    <Footer />
   </el-container>
 </template>
 
@@ -95,6 +92,12 @@ export default {
     async searchPgkName() {
       console.log("Search", this.pgkName);
 
+      // TODO: update URL
+      this.$router.push({
+        path: this.$route.path,
+        query: { pkg: this.pgkName },
+      });
+
       const loading = this.$loading({
         lock: true,
         text: "Fetch package ...",
@@ -125,7 +128,11 @@ export default {
       } catch (error) {
         loading.close();
         this.svgHTML = `<g></g>`;
-        this.$message.error(`Oops, package ${this.pgkName} not found!`);
+        this.$message({
+          message: `Oops, package ${this.pgkName} not found!`,
+          type: "error",
+          offset: 120,
+        });
       }
     },
     registerSvgPanZoom(svgpanzoom) {
@@ -173,6 +180,12 @@ export default {
         font-size: 12px;
         font-weight: 400;
         margin-left: 1rem;
+      }
+    }
+    .el-input-group__append {
+      background-color: #409eff;
+      .el-icon-right {
+        color: #fff;
       }
     }
   }
