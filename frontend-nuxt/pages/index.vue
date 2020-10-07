@@ -184,6 +184,7 @@ export default {
       margin-top: 0.5rem;
       margin-bottom: 0.5rem;
       display: flex;
+      flex-wrap: wrap;
       font-size: 12px;
       font-weight: 400;
       a {
