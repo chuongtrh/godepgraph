@@ -44,7 +44,7 @@
       :panEnabled="true"
       :fit="false"
       :center="true"
-      :minZoom="0.3"
+      :minZoom="0.1"
       :maxZoom="3"
       @svgpanzoom="registerSvgPanZoom"
     >
@@ -73,7 +73,6 @@ export default {
     window.addEventListener("resize", this.onResize);
 
     this.pgkName = this.$route.query.pkg || "";
-    console.log("pgkName", this.pgkName);
     if (this.pgkName != "") {
       this.searchPgkName();
     }
@@ -83,6 +82,7 @@ export default {
       pgkName: "net/http",
       svgHTML: `<g></g>`,
       svgpanzoom: null,
+      viewBox: null,
     };
   },
   methods: {
@@ -90,8 +90,6 @@ export default {
       this.resize();
     },
     async searchPgkName() {
-      console.log("Search", this.pgkName);
-
       // TODO: update URL
       this.$router.push({
         path: this.$route.path,
@@ -114,20 +112,22 @@ export default {
           let viz = new Viz({ Module, render });
           loading.text = "Loading graph...";
           let svg = await viz.renderSVGElement(graph);
+          this.viewBox = svg.getAttribute("viewBox").split(" ").map(Math.ceil);
           let innerHTML = svg.getElementsByClassName("graph")[0].innerHTML;
           this.svgHTML = innerHTML;
+          this.fitCenter();
 
-          this.center();
           setTimeout(() => {
             loading.close();
-          }, 300);
+          }, 200);
         } else {
           loading.close();
-          console.log(res.data);
+          console.error(res.data);
         }
       } catch (error) {
         loading.close();
         this.svgHTML = `<g></g>`;
+        this.viewBox = null;
         this.$message({
           message: `Oops, package ${this.pgkName} not found!`,
           type: "error",
@@ -143,10 +143,20 @@ export default {
 
       this.svgpanzoom.resize();
     },
-    center() {
-      if (!this.svgpanzoom) return;
+    fitCenter() {
+      if (!this.svgpanzoom || !this.viewBox) return;
 
-      this.svgpanzoom.center();
+      let width = this.viewBox[2];
+      let height = this.viewBox[3];
+      var elmnt = window.document.querySelector(".svg-panzoom");
+      if (elmnt) {
+        let clientWidth = elmnt.clientWidth;
+        let clientHeight = elmnt.clientHeight;
+        this.svgpanzoom.pan({
+          x: Math.abs(clientWidth - width) / 2,
+          y: Math.abs(height),
+        });
+      }
     },
   },
 };
