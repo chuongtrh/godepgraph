@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/google-analytics": "^2.4.0",
     "core-js": "^3.6.5",
     "element-ui": "^2.13.2",
     "nuxt": "^2.14.5",
