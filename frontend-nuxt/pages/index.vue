@@ -23,9 +23,6 @@
           <div class="example">
             Example:
             <el-link type="primary" href="/?pkg=net/http">net/http</el-link>
-            <el-link type="primary" href="/?pkg=github.com/labstack/echo/v4"
-              >github.com/labstack/echo/v4</el-link
-            >
             <el-link type="primary" href="/?pkg=github.com/gorilla/mux"
               >github.com/gorilla/mux</el-link
             >
@@ -111,7 +108,9 @@ export default {
           let graph = res.data;
           let viz = new Viz({ Module, render });
           loading.text = "Loading graph...";
-          let svg = await viz.renderSVGElement(graph);
+          let svg = await viz.renderSVGElement(graph, {
+            totalMemory: 32 * 1024 * 1024,
+          });
           this.viewBox = svg.getAttribute("viewBox").split(" ").map(Math.ceil);
           let innerHTML = svg.getElementsByClassName("graph")[0].innerHTML;
           this.svgHTML = innerHTML;

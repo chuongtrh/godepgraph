@@ -6,8 +6,8 @@ github.com/andybalholm/brotli v1.0.0 h1:7UCwP93aiSfvWpapti8g88vVVGp2qqtGyePsSuDa
 github.com/andybalholm/brotli v1.0.0/go.mod h1:loMXtMfwqflxFJPmdbJO0a3KNoPuLBgiu3qAvBg8x/Y=
 github.com/andybalholm/brotli v1.0.1 h1:KqhlKozYbRtJvsPrrEeXcO+N2l6NYT5A2QAFmSULpEc=
 github.com/andybalholm/brotli v1.0.1/go.mod h1:loMXtMfwqflxFJPmdbJO0a3KNoPuLBgiu3qAvBg8x/Y=
-github.com/chuongtrh/godepviz v0.1.2 h1:TloxqNMhzPYyJw30YEdXp5BmcVnLy5LZk0EDfSnrofY=
-github.com/chuongtrh/godepviz v0.1.2/go.mod h1:E99PxhJxJsTwjc2GA3LjkdZZMdwKo6y8cGNNRRvU8s8=
+github.com/chuongtrh/godepviz v0.1.4 h1:Jc3mlI3dhmcUWDfc4rNkcgA8TCUcQtpyfiIZsHEXHoE=
+github.com/chuongtrh/godepviz v0.1.4/go.mod h1:E99PxhJxJsTwjc2GA3LjkdZZMdwKo6y8cGNNRRvU8s8=
 github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/gofiber/fiber/v2 v2.0.5 h1:CGf7XRGfmeyEiRrA4AbOCd3FGBiPYWWGr49WH3F3sy8=
