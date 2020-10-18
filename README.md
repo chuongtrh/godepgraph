@@ -8,9 +8,10 @@ Backend: Golang
 - [Fiber](https://fiber.wiki/)
 - [godepviz](https://github.com/chuongtrh/godepviz)
 - [bigcache](https://github.com/allegro/bigcache)
-- Heroku deploy
+- Deploy on Heroku 
 
 Frontend: Nuxt.js
+- [Viz.js](https://github.com/mdaines/viz.js)
 - [vue-svg-pan-zoom](https://github.com/yanick/vue-svg-pan-zoom)
 - Host on Vercel
 
