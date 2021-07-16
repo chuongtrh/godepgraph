@@ -20,7 +20,7 @@ bin/
 
 tmp/*
 !tmp/.gitkeep
-
+__test__
 ### Go Patch ###
 /vendor/
 /Godeps/
