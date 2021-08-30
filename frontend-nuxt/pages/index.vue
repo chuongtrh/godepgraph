@@ -23,8 +23,11 @@
           <div class="example">
             Example:
             <el-link type="primary" href="/?pkg=net/http">net/http</el-link>
-            <el-link type="primary" href="/?pkg=github.com/gorilla/mux"
-              >github.com/gorilla/mux</el-link
+            <el-link type="primary" href="/?pkg=github.com/gofiber/fiber/v2"
+              >github.com/gofiber/fiber/v2</el-link
+            >
+            <el-link type="primary" href="/?pkg=github.com/labstack/echo/v4"
+              >github.com/labstack/echo/v4</el-link
             >
             <el-link type="primary" href="/?pkg=go.uber.org/zap"
               >go.uber.org/zap</el-link
@@ -92,7 +95,9 @@ export default {
         path: this.$route.path,
         query: { pkg: this.pgkName },
       });
-
+      if (!this.pgkName) {
+        return;
+      }
       const loading = this.$loading({
         lock: true,
         text: "Fetch package ...",
@@ -118,7 +123,7 @@ export default {
 
           setTimeout(() => {
             loading.close();
-          }, 200);
+          }, 100);
         } else {
           loading.close();
           console.error(res.data);
